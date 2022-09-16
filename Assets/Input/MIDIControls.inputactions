@@ -1,0 +1,94 @@
+{
+    "name": "MIDIControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "f5a15c26-1d0f-4ce9-8212-8c681dc11ba8",
+            "actions": [
+                {
+                    "name": "Tree1",
+                    "type": "Value",
+                    "id": "93cea303-24a6-442d-97a5-57960bbe99d3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold(duration=1.401298E-45)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Tree2",
+                    "type": "Value",
+                    "id": "addf489a-91bd-4c6e-8e47-06a3afcb8511",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Explosion",
+                    "type": "Value",
+                    "id": "cd4a1332-acbb-448a-815d-19b5d21f5769",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LightUp1",
+                    "type": "Value",
+                    "id": "b4509cf4-3b29-4ff4-b6e8-6a69e1d7c8ca",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "01726e5f-cd62-4321-a00e-b6e19a5281bc",
+                    "path": "<MidiDevice>/note036",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tree1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10d7ad81-0168-4114-8cbb-00a2720feb5b",
+                    "path": "<MidiDevice>/note043",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tree2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47fc0a12-f47f-4242-81a3-810aa73185da",
+                    "path": "<MidiDevice>/note044",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Explosion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "892aa9ee-c2de-4af8-9e98-a75293acf876",
+                    "path": "<MidiDevice>/note039",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightUp1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
